@@ -181,7 +181,7 @@ export default function AskAI() {
             <input
               value={input} onChange={e => setInput(e.target.value)}
               placeholder="Ask anything from your notes…"
-              className="w-full bg-surface-800/50 border border-border hover:border-text-3 rounded-xl px-5 py-3.5 pr-12 text-sm text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200"
+              className="w-full bg-surface-800 border border-border hover:border-text-3 rounded-xl px-5 py-3.5 pr-12 text-sm text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200"
             />
             <MessageSquare className="w-4 h-4 text-text-3 absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none" />
           </div>

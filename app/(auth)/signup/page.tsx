@@ -252,19 +252,19 @@ export default function SignupPage() {
                 <label className="block text-sm text-text-2 mb-1.5 font-medium">Full name</label>
                 <input type="text" required value={name} onChange={e => setName(e.target.value)}
                   placeholder="Your name"
-                  className="w-full bg-surface-800/60 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200" />
+                  className="w-full bg-surface-800 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200" />
               </div>
               <div>
                 <label className="block text-sm text-text-2 mb-1.5 font-medium">Email</label>
                 <input type="email" required value={email} onChange={e => setEmail(e.target.value)}
                   placeholder="you@example.com"
-                  className="w-full bg-surface-800/60 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200" />
+                  className="w-full bg-surface-800 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200" />
               </div>
               <div>
                 <label className="block text-sm text-text-2 mb-1.5 font-medium">Password</label>
                 <input type="password" required value={password} onChange={e => setPassword(e.target.value)}
                   placeholder="Min. 6 characters"
-                  className="w-full bg-surface-800/60 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200" />
+                  className="w-full bg-surface-800 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200" />
               </div>
               <motion.button type="submit" disabled={loading} whileTap={{ scale: 0.98 }}
                 className="w-full btn-gradient py-3 rounded-xl flex items-center justify-center gap-2 disabled:opacity-60 text-sm">
@@ -280,7 +280,7 @@ export default function SignupPage() {
 
             <div className="mt-4">
               <button type="button" onClick={handleGoogleSignIn} disabled={loading}
-                className="w-full flex items-center justify-center gap-3 bg-surface-800/60 hover:bg-surface-700 border border-border hover:border-text-3 text-text-1 font-medium py-3 rounded-xl transition-all duration-200 disabled:opacity-60">
+                className="w-full flex items-center justify-center gap-3 bg-surface-800 hover:bg-surface-700 border border-border hover:border-text-3 text-text-1 font-medium py-3 rounded-xl transition-all duration-200 disabled:opacity-60">
                 <GoogleIcon />
                 Sign in with Google
               </button>

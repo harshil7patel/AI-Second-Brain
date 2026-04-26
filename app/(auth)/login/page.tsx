@@ -261,7 +261,7 @@ export default function LoginPage() {
                   type="email" required value={email}
                   onChange={e => setEmail(e.target.value)}
                   placeholder="you@example.com"
-                  className="w-full bg-surface-800/60 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200"
+                  className="w-full bg-surface-800 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200"
                 />
               </div>
               <div>
@@ -270,7 +270,7 @@ export default function LoginPage() {
                   type="password" required value={password}
                   onChange={e => setPassword(e.target.value)}
                   placeholder="••••••••"
-                  className="w-full bg-surface-800/60 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200"
+                  className="w-full bg-surface-800 border border-border hover:border-text-3 rounded-xl px-4 py-3 text-text-1 placeholder:text-text-3 focus:outline-none input-glow transition-all duration-200"
                 />
               </div>
               <motion.button
@@ -293,7 +293,7 @@ export default function LoginPage() {
                 type="button"
                 onClick={handleGoogleSignIn}
                 disabled={loading}
-                className="w-full flex items-center justify-center gap-3 bg-surface-800/60 hover:bg-surface-700 border border-border hover:border-text-3 text-text-1 font-medium py-3 rounded-xl transition-all duration-200 disabled:opacity-60"
+                className="w-full flex items-center justify-center gap-3 bg-surface-800 hover:bg-surface-700 border border-border hover:border-text-3 text-text-1 font-medium py-3 rounded-xl transition-all duration-200 disabled:opacity-60"
               >
                 <GoogleIcon />
                 Sign in with Google
