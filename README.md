@@ -123,6 +123,7 @@ Add environment variables in Vercel dashboard → Settings → Environment Varia
 - ✅ Collapsible sidebar
 - ✅ Word count, timestamps
 - ✅ Responsive layout
+- ✅ Beautiful glassmorphism UI
 
 ---
 
