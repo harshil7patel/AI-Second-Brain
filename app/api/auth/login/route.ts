@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from "next/server"
 import { createServerClient } from "@supabase/ssr"
 
+/**
+ * Handles user login requests by authenticating with Supabase
+ * and attaching session cookies to the response.
+ */
 export async function POST(req: NextRequest) {
   const { email, password } = await req.json()
 
