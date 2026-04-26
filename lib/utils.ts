@@ -1,10 +1,16 @@
 import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
 
+/**
+ * Merges Tailwind CSS classes, resolving conflicts using tailwind-merge.
+ */
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
+/**
+ * Counts the number of words in a given text string.
+ */
 export function countWords(text: string): number {
   return text.trim().split(/\s+/).filter(Boolean).length
 }
